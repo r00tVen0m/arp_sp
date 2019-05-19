@@ -24,6 +24,7 @@ def print_result(client_result):
      for client in client_result :
           print (client["ip"] + "\t\t" + client["mac"])
 
+print("\t\t[++] Creat By Abdessalam King [++]\n")
 options = get_arguments()
 scan_result = scan(options.target)
 print_result(scan_result)
